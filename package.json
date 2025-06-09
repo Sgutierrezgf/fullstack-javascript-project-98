@@ -1,0 +1,19 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Brain games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sgutierrezgf/fullstack-javascript-project-98.git"
+  },
+  "author": "Sebastian Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sgutierrezgf/fullstack-javascript-project-98/issues"
+  },
+  "homepage": "https://github.com/Sgutierrezgf/fullstack-javascript-project-98#readme"
+}
