@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-   "type": "module",
+  "type": "module",
   "description": "Brain games",
   "main": "index.js",
   "scripts": {
@@ -13,12 +13,15 @@
     "url": "git+https://github.com/Sgutierrezgf/fullstack-javascript-project-98.git"
   },
   "bin": {
-  "brain-games": "bin/brain-games.js"
-},
+    "brain-games": "bin/brain-games.js"
+  },
   "author": "Sebastian Gutierrez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sgutierrezgf/fullstack-javascript-project-98/issues"
   },
-  "homepage": "https://github.com/Sgutierrezgf/fullstack-javascript-project-98#readme"
+  "homepage": "https://github.com/Sgutierrezgf/fullstack-javascript-project-98#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
