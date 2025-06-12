@@ -6,3 +6,10 @@ brain-games:
 
 publish:
     npm publish --dry-run
+
+lint:
+    npx eslint .
+
+rules:
+  no-console: off
+  import/extensions: off
