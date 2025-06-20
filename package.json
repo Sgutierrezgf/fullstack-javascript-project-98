@@ -6,14 +6,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "brain-games": "node bin/brain-games.js"
+    "brain-games": "node bin/brain-games.js",
+    "brain-even": "node bin/brain-even.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sgutierrezgf/fullstack-javascript-project-98.git"
   },
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "author": "Sebastian Gutierrez",
   "license": "ISC",
