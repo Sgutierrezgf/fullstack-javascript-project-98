@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import runGame from '../src/even.js';
+import runGame from '../src/games/even.js';
 
 console.log('¡Bienvenido a Brain Games!');
 const userName = readlineSync.question('¿Cuál es tu nombre? ');

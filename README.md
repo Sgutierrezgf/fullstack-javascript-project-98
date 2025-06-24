@@ -3,4 +3,8 @@
 
 [![Maintainability](https://qlty.sh/badges/812b97e6-9d66-483d-b091-c6990ecf94dc/maintainability.svg)](https://qlty.sh/gh/Sgutierrezgf/projects/fullstack-javascript-project-98)
 
-grabacion del juego ->  https://asciinema.org/a/BJPf7htyt31MQrixtMAGybc2E
+grabacion del juego ->  
+
+brain-even -> https://asciinema.org/a/BJPf7htyt31MQrixtMAGybc2E
+
+brain-calc -> https://asciinema.org/a/7Ov3OHxLMcmQi8xB5UgR9DvVp
