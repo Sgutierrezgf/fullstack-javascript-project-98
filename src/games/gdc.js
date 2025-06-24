@@ -1,7 +1,5 @@
 import readlineSync from 'readline-sync';
 
-
-
 const calcularMCD = () => {
     const num1 = Math.floor(Math.random() * 30) + 1;
     const num2 = Math.floor(Math.random() * 30) + 1;
