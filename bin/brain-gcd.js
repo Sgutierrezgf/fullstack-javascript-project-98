@@ -10,7 +10,7 @@ const rondas = 3;
 for (let i = 0; i < rondas; i++) {
     const correcta = calcularMCD();
     if (!correcta) {
-        console.log(`Intentémoslo de nuevo, ${userName}.`);
+        console.log(`¡Intentémoslo de nuevo, ${userName}!`);
         process.exit(1);
     }
 }
