@@ -8,11 +8,11 @@ console.log(`¡Hola, ${nombre}!\n`);
 
 const rondas = 3;
 for (let i = 0; i < rondas; i += 1) {
-    const correcto = calcularEsPrimo();
-    if (!correcto) {
-        console.log(`¡Intentémoslo de nuevo, ${nombre}!`);
-        process.exit(1);
-    }
+  const correcto = calcularEsPrimo();
+  if (!correcto) {
+    console.log(`¡Intentémoslo de nuevo, ${nombre}!`);
+    process.exit(1);
+  }
 }
 
 console.log(`¡Felicidades, ${nombre}!`);

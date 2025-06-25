@@ -11,20 +11,20 @@ console.log('Responde "yes" si el número es par, de lo contrario responde "no".
 let correctAnswersInARow = 0;
 
 while (correctAnswersInARow < 3) {
-    const { randomNumber, correctAnswer } = runGame();
+  const { randomNumber, correctAnswer } = runGame();
 
-    console.log(`Pregunta: ${randomNumber}`);
+  console.log(`Pregunta: ${randomNumber}`);
 
-    const userAnswer = readlineSync.question('Tu respuesta: ').toLowerCase();
+  const userAnswer = readlineSync.question('Tu respuesta: ').toLowerCase();
 
-    if (userAnswer === correctAnswer) {
-        console.log('¡Correcto!');
-        correctAnswersInARow += 1;
-    } else {
-        console.log(`'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`);
-        console.log(`¡Intentémoslo de nuevo, ${userName}!`);
-        process.exit(1);
-    }
+  if (userAnswer === correctAnswer) {
+    console.log('¡Correcto!');
+    correctAnswersInARow += 1;
+  } else {
+    console.log(`'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`);
+    console.log(`¡Intentémoslo de nuevo, ${userName}!`);
+    process.exit(1);
+  }
 }
 
 console.log(`🏆 ¡Felicidades, ${userName}! Has respondido correctamente 3 veces seguidas.`);

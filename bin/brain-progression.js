@@ -8,11 +8,11 @@ console.log(`¡Hola, ${nombre}!\n`);
 
 const rondas = 3;
 for (let i = 0; i < rondas; i += 1) {
-    const esCorrecto = calcularProgression();
-    if (!esCorrecto) {
-        console.log(`¡Intentémoslo de nuevo, ${nombre}!`);
-        process.exit(1);
-    }
+  const esCorrecto = calcularProgression();
+  if (!esCorrecto) {
+    console.log(`¡Intentémoslo de nuevo, ${nombre}!`);
+    process.exit(1);
+  }
 }
 
 console.log(`¡Felicidades, ${nombre}!`);

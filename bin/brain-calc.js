@@ -8,11 +8,11 @@ console.log(`¡Hola, ${userName}!`);
 
 const rondas = 3;
 for (let i = 0; i < rondas; i += 1) {
-    const correcta = generarOperacion();
-    if (!correcta) {
-        console.log(`¡Intentémoslo de nuevo, ${userName}!`);
-        process.exit(1);
-    }
+  const correcta = generarOperacion();
+  if (!correcta) {
+    console.log(`¡Intentémoslo de nuevo, ${userName}!`);
+    process.exit(1);
+  }
 }
 
 console.log(`¡Felicidades, ${userName}! Has completado el juego.`);
