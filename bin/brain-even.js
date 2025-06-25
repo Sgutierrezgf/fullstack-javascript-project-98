@@ -8,25 +8,21 @@ console.log(`¡Hola, ${userName}!`);
 
 console.log('Responde "yes" si el número es par, de lo contrario responde "no".');
 
-
 let correctAnswersInARow = 0;
 
 while (correctAnswersInARow < 3) {
     const { randomNumber, correctAnswer } = runGame();
 
-
-    console.log(`Pregunta: ¿Es ${randomNumber} par?`);
-
+    console.log(`Pregunta: ${randomNumber}`);
 
     const userAnswer = readlineSync.question('Tu respuesta: ').toLowerCase();
-
 
     if (userAnswer === correctAnswer) {
         console.log('¡Correcto!');
         correctAnswersInARow++;
     } else {
         console.log(`'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`);
-        console.log('¡Intentémoslo de nuevo, ' + userName + '!');
+        console.log(`¡Intentémoslo de nuevo, ${userName}!`);
         correctAnswersInARow = 0;
     }
 }
