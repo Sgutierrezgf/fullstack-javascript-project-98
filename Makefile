@@ -9,7 +9,3 @@ publish:
 
 lint:
     npx eslint .
-
-rules:
-  no-console: off
-  import/extensions: off
