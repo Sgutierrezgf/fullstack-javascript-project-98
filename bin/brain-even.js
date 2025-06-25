@@ -23,7 +23,7 @@ while (correctAnswersInARow < 3) {
     } else {
         console.log(`'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`);
         console.log(`¡Intentémoslo de nuevo, ${userName}!`);
-        correctAnswersInARow = 0;
+        process.exit(1);
     }
 }
 
