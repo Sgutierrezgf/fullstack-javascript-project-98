@@ -11,7 +11,7 @@ for (let i = 0; i < rondas; i++) {
     const esCorrecto = calcularProgression();
     if (!esCorrecto) {
         console.log(`¡Intentémoslo de nuevo, ${nombre}!`);
-        process.exit(0);
+        process.exit(1);
     }
 }
 
