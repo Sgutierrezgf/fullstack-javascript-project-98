@@ -6,7 +6,7 @@ const calcularProgression = () => {
   const paso = Math.floor(Math.random() * 5) + 1;
 
   const progresion = [];
-  for (let i = 0; i < longitud; i++) {
+  for (let i = 0; i < longitud; i += 1) {
     progresion.push(inicio + i * paso);
   }
 
