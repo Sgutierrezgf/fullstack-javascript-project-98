@@ -19,7 +19,7 @@ while (correctAnswersInARow < 3) {
 
     if (userAnswer === correctAnswer) {
         console.log('¡Correcto!');
-        correctAnswersInARow++;
+        correctAnswersInARow += 1;
     } else {
         console.log(`'${userAnswer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correctAnswer}'.`);
         console.log(`¡Intentémoslo de nuevo, ${userName}!`);

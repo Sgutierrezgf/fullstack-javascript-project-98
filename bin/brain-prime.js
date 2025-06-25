@@ -7,7 +7,7 @@ const nombre = readlineSync.question('¿Cuál es tu nombre? ');
 console.log(`¡Hola, ${nombre}!\n`);
 
 const rondas = 3;
-for (let i = 0; i < rondas; i++) {
+for (let i = 0; i < rondas; i += 1) {
     const correcto = calcularEsPrimo();
     if (!correcto) {
         console.log(`¡Intentémoslo de nuevo, ${nombre}!`);

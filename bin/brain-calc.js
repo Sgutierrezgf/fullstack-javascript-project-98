@@ -7,7 +7,7 @@ const userName = readlineSync.question('¿Cuál es tu nombre? ');
 console.log(`¡Hola, ${userName}!`);
 
 const rondas = 3;
-for (let i = 0; i < rondas; i++) {
+for (let i = 0; i < rondas; i += 1) {
     const correcta = generarOperacion();
     if (!correcta) {
         console.log(`¡Intentémoslo de nuevo, ${userName}!`);

@@ -18,6 +18,8 @@ const generarOperacion = () => {
         case '*':
             resultadoReal = num1 * num2;
             break;
+        default:
+            return false;
     }
 
     console.log('¿Cuál es el resultado de la expresión?');
@@ -28,11 +30,10 @@ const generarOperacion = () => {
     if (respuesta === resultadoReal) {
         console.log('¡Correcto!');
         return true;
-    } else {
-        console.log(`'${respuesta}' es incorrecto ;(. La respuesta correcta era '${resultadoReal}'.`);
-        return false;
     }
-};
 
+    console.log(`'${respuesta}' es incorrecto ;(. La respuesta correcta era '${resultadoReal}'.`);
+    return false;
+};
 
 export default generarOperacion;

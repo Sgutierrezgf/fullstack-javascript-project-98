@@ -18,16 +18,17 @@ const calcularProgression = () => {
 
     console.log('¿Qué número falta en la progresión?');
     console.log(`Pregunta: ${progresionOculta.join(' ')}`);
+
     const respuestaUsuario = readlineSync.question('Tu respuesta: ');
     const respuesta = parseInt(respuestaUsuario, 10);
 
     if (respuesta === resultadoReal) {
         console.log('¡Correcto!');
         return true;
-    } else {
-        console.log(`'${respuesta}' es una respuesta incorrecta ;(. La respuesta correcta era '${resultadoReal}'.`);
-        return false;
     }
+
+    console.log(`'${respuesta}' es una respuesta incorrecta ;(. La respuesta correcta era '${resultadoReal}'.`);
+    return false;
 };
 
 export default calcularProgression;
