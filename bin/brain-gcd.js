@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import calcularMCD from '../src/games/gdc.js';
 
